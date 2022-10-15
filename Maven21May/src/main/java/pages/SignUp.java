@@ -81,6 +81,11 @@ public class SignUp {
     public boolean verifyPronoun() {
     	return pronoun.isDisplayed();
 	}
+    
+    public boolean Pronoun() {
+    	return pronoun.isDisplayed();
+	}
+
 }
 
   
