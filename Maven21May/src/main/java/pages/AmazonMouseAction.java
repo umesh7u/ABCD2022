@@ -32,6 +32,11 @@ public class AmazonMouseAction {
    	act.moveToElement(yourOrder).click().build().perform();
   }
 
+	 public void clickOnOrder() {
+		 Actions act = new Actions(driver);
+	   	act.moveToElement(yourOrder).click().build().perform();
+	  }
+
 
 
 
